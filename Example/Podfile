@@ -12,3 +12,4 @@ target 'SJVTMagic_Example' do
     pod 'FBSnapshotTestCase'
   end
 end
+

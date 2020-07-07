@@ -1,22 +1,25 @@
 {
   "name": "SJVTMagic",
-  "version": "0.1.0",
-  "summary": "A short description of SJVTMagic.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "基于VTMagic实现文字、图片、文字+图片功能",
+  "description": "SJVTMagic 是我基于VTMagic的基础之上重新实现文字、图片、文字+图片功能",
   "homepage": "https://github.com/yuhuaxingyun/SJVTMagic",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "license": "MIT",
   "authors": {
-    "yuhuaxingyun": "songjiang@qq.com"
+    "yuhuaxingyun": "2496157421@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
   },
   "source": {
     "git": "https://github.com/yuhuaxingyun/SJVTMagic.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "SJVTMagic/Classes/**/*"
+  "public_header_files": "SJVTMagic/**/*.h",
+  "source_files": [
+    "SJVTMagic",
+    "SJVTMagic/**/*.{h,m}"
+  ],
+  "frameworks": "UIKit",
+  "requires_arc": true
 }

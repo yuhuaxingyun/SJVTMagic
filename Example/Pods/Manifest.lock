@@ -5,7 +5,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
   - Kiwi (3.0.0)
-  - SJVTMagic (0.1.0)
+  - SJVTMagic (0.0.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -24,8 +24,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
-  SJVTMagic: 7005c9691998bd95a5cec3b07f3b8593ddf7863e
+  SJVTMagic: 821e1bba19d52169c28fd15fdecb59f9d86b09ae
 
-PODFILE CHECKSUM: 42b439046296a69a11f13bbf324dcb57c9a69e1c
+PODFILE CHECKSUM: 24218b0806b1b998c6a8c8b01297d0b579e76a31
 
 COCOAPODS: 1.9.3
