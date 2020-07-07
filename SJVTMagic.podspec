@@ -24,7 +24,8 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
+  spec.description  = <<-DESC 
+                          SJVTMagic 是我基于VTMagic的基础之上重新实现文字、图片、文字+图片功能
                    DESC
 
   spec.homepage     = "https://github.com/yuhuaxingyun/SJVTMagic"
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -64,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   spec.ios.deployment_target = "9.0"
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/yuhuaxingyun/SJVTMagic.git", :commit => "3eceed79e41e86457e8d9d350451fcb511152c19" }
+  spec.source = { :git => "https://github.com/yuhuaxingyun/SJVTMagic.git", :tag => 'v0.0.1' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,11 +90,13 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
+  #spec.public_header_files = 'SJVTMagic/Classes/SJVTMagic.h'
+  #spec.source_files = 'SJVTMagic/Classes/SJVTMagic.h'
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.public_header_files = "SJVTMagic/**/*.h"
+  spec.source_files  = "SJVTMagic", "SJVTMagic/**/*.{h,m}"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  #spec.exclude_files = "Classes/Exclude"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,7 +119,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
