@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SJVTMagic_Example' do
+  pod 'SJVTMagic', :path => '../'
+
+  target 'SJVTMagic_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+    pod 'FBSnapshotTestCase'
+  end
+end

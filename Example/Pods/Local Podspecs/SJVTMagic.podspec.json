@@ -1,0 +1,22 @@
+{
+  "name": "SJVTMagic",
+  "version": "0.1.0",
+  "summary": "A short description of SJVTMagic.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuhuaxingyun/SJVTMagic",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuhuaxingyun": "songjiang@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yuhuaxingyun/SJVTMagic.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SJVTMagic/Classes/**/*"
+}
