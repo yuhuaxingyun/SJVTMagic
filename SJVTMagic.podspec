@@ -91,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
   spec.public_header_files = "SJVTMagic/**/*.h"
-  spec.source_files  = "SJVTMagic", "SJVTMagic/**/*.{h,m}"
-
+  spec.source_files  = "SJVTMagic", "SJVTMagic/*.{h,m}"
+  #spec.source_files  = "SJVTMagic", "SJVTMagic/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
 
