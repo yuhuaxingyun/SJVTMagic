@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SJVTMagic"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "基于VTMagic实现文字、图片、文字+图片功能"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/yuhuaxingyun/SJVTMagic.git", :tag => '0.0.1' }
+  spec.source       = { :git => "https://github.com/yuhuaxingyun/SJVTMagic.git", :tag => '0.0.2' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,8 +92,8 @@ Pod::Spec.new do |spec|
   #
 
   #spec.public_header_files = "SJVTMagic/**/*.h"
-  #spec.source_files  = 'SJVTMagic/Classes/**/*'
-  spec.source_files  = "SJVTMagic", "SJVTMagic/**/*.{h,m}"
+  spec.source_files  = "SJVTMagic","SJVTMagic/Classes/*.{h,m}"
+  #spec.source_files  = "SJVTMagic", "SJVTMagic/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
 
