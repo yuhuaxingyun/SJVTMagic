@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  # spec.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   spec.ios.deployment_target = "9.0"
@@ -91,9 +91,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.public_header_files = "SJVTMagic/**/*.h"
-  spec.source_files  = 'SJVTMagic/Classes/**/*'
-  #spec.source_files  = "SJVTMagic", "SJVTMagic/**/*.{h,m}"
+  #spec.public_header_files = "SJVTMagic/**/*.h"
+  #spec.source_files  = 'SJVTMagic/Classes/**/*'
+  spec.source_files  = "SJVTMagic", "SJVTMagic/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
 
