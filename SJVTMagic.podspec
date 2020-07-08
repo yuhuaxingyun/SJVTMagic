@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SJVTMagic"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "基于VTMagic实现文字、图片、文字+图片功能"
 
   # This description is used to generate tags and improve search results.
@@ -55,7 +55,6 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "yuhuaxingyun" => "2496157421@qq.com" }
   # Or just: spec.author    = "yuhuaxingyun"
-  # spec.authors            = { "yuhuaxingyun" => "email@address.com" }
   # spec.social_media_url   = "https://twitter.com/yuhuaxingyun"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -80,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/yuhuaxingyun/SJVTMagic.git", :tag => '0.0.2' }
+  spec.source       = { :git => "https://github.com/yuhuaxingyun/SJVTMagic.git", :tag => '0.0.3' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #spec.public_header_files = "SJVTMagic/**/*.h"
+  #spec.public_header_files = "SJVTMagic/*.h"
   spec.source_files  = "SJVTMagic","SJVTMagic/*.{h,m}"
   #spec.source_files  = "SJVTMagic", "SJVTMagic/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
