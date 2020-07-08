@@ -92,8 +92,8 @@ Pod::Spec.new do |spec|
   #
 
   #spec.public_header_files = "SJVTMagic/**/*.h"
-  spec.source_files  = "SJVTMagic","SJVTMagic/Classes/*.{h,m}"
-  #spec.source_files  = "SJVTMagic", "SJVTMagic/**/*.{h,m}"
+  spec.source_files  = "SJVTMagic","SJVTMagic/*.{h,m}"
+  #spec.source_files  = "SJVTMagic", "SJVTMagic/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
 
